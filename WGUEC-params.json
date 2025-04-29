@@ -1,0 +1,34 @@
+{
+  "file_paths": {
+    "CODONBIAS_PATH": "../datas/E.coli-original-256.json",
+    "COMB_PATH": "../datas/OGR.json",
+    "DECODE_PATH": "../datas/encode_result.json",
+    "DECODE_RESULT_PATH": "../output/decode_result.json",
+    "ENCODE_PATH": "../datas/encode.json",
+    "ENCODE_RESULT_PATH": "../output/encode_result.json",
+    "EVAL_OUTPUT_JSON": "../output/output_evaluate.json",
+    "FLAG_PATH": "../output/FLAG.txt",
+    "OUTPUT_PATH": "../output/output_path.txt"
+  },
+    "function": {
+        "CONTINUE": 0,
+        "DECODE": 0,
+        "ENCODE": 1,
+        "EVALUATE": 0
+    },
+    "params": {
+        "ALL_MAX_INDEL": 3,
+        "GENELOOP_INCREMENT": 2000,
+        "LISTDOC_INCREMENT": 10,
+        "LISTDOC_INIT_SIZE": 2000,
+        "LONG_SEQUENCE": 0,
+        "M_K": 30,
+        "M_T": 150,
+        "Output_PaintJson": 0,
+        "Output_Snapshot": 0,
+        "START_CODON": "M",
+        "STOP_CODON": "*",
+        "StartAndStop_INCREMENT": 10000
+    },
+    "password": "abcdef"
+}
